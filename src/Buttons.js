@@ -8,20 +8,20 @@ const Buttons = (props) => {
          </button>
 
          <button className="menu-button">
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
          </button>
 
          <button className="left-button">
-           <i class="fa-solid fa-backward"></i>
+           <i className="fa-solid fa-backward"></i>
          </button>
 
          <button className="right-button">
-           <i class="fa-solid fa-forward"></i>
+           <i className="fa-solid fa-forward"></i>
          </button>
          
          <button className="play-pause">
-            <i class="fa-solid fa-play"></i> /
-            <i class="fa-solid fa-pause"></i>
+            <i className="fa-solid fa-play"></i> /
+            <i className="fa-solid fa-pause"></i>
          </button>
       
       
