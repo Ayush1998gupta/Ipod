@@ -1,13 +1,112 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  border: 2px solid black;
+  margin: 1% auto 0px auto;
+  width: min-content;
+  padding: 20px 10px 5px 10px;
+}
+
+/* SCREEN ///////////////////////////////////////////////////////////////////////////////////////////////// */
+.screen-container {
+  border: 1px solid grey;
+  width: 350px;
+  height: 350px;
+  margin: 0px auto;
+}
+
+/* BUTTONS //////////////////////////////////////////////////////////////////////////////////////////////// */
+.buttons-container {
+  width: 260px;
+  height: 260px;
+  border: 1px solid grey;
+  margin: 10px auto 0px auto;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+}
+
+.center-circle {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(90, 90, 90);
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.menu-button {
+  position: absolute;
+  top: 0px;
+  height: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 37% 37% 0% 0%;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.left-button {
+  position: absolute;
+  left: 0px;
+  width: 25%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 37% 0% 0% 37%;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.right-button {
+  position: absolute;
+  right: 0px;
+  width: 25%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0% 37% 37% 0%;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.play-pause {
+  position: absolute;
+  bottom: 0px;
+  height: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0% 37% 37%;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
 }
